@@ -1,5 +1,5 @@
 ---
-title: Individal Block Diagram
+title: Individal Block Diagram a.l
 tags:
 - tag1
 - tag2
