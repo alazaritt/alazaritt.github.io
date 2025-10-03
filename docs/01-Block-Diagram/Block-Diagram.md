@@ -1,24 +1,15 @@
 ---
-title: Individal Block Diagram a.l
+title: Individual Block Diagram a.l
 tags:
 - tag1
 - tag2
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
-
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+This block diagram outlines the audio sensor subsystem for a motion- and audio-activated light. The board includes a microphone for detecting sound, with an op-amp used to tune the analog signal before it is read by the onboard ADC of the PIC18F57Q43 microcontroller. A digital output signal is then sent to a teammate's board to trigger a response.
+The subsystem operates at 5V of power via a voltage regulator. A single reset button is included as a digital input. Communication with the main control board is handled through an 8-pin ribbon cable, using one digital signal line and ground. The block diagram documents all major connections, power domains, signal directions, microcontroller use, and team interconnections.
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+## Sound Board Block Diagram 
 
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![Individual Block diagram ](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/01-Block-Diagram/individual%20block%20diagram.drawio.png?raw=true)
