@@ -13,4 +13,4 @@ The subsystem operates at 5V of power via a voltage regulator. A single reset bu
 
 ## Sound Board Block Diagram 
 
-![Individual Block diagram ](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/01-Block-Diagram/individual%20block%20diagram.drawio.png?raw=true)
+![Individual Block diagram ](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/01-Block-Diagram/individual%20block%20diagram1.drawio.png?raw=true)
