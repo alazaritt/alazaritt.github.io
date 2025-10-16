@@ -1,13 +1,9 @@
 ---
-title: Component Selection Example
+title: Component Selection
 ---
 
-## Examples
 
-### Style 1
-
-
-*Table 1: Component selection*
+*Table 1: Component selection (op-amp)*
 
 **Op-amp**
 
@@ -21,38 +17,47 @@ title: Component Selection Example
 
 **Rationale:** This op-amp will be most ideal to work with due to its high signal range and low power operation. It has a compact design which will reduce board space, and it is also extremly cost-efficient.
 
-### Style 2
 
-> Also acceptable, more markdown friendly
+*Table 1: Component selection (microphone)*
 
-**External Clock Module**
+**Microphone**
 
-1. XC1259TR-ND surface mount crystal
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,q_auto,w_700/c_pad,w_700/F7542100-01)<br>Option 1.<br> RS PRO 7542100 Microphone <br>$0.61/each<br>[link to product]([https://www.digikey.com/en/products/detail/texas-instruments/LM324N/277627?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgDuOhuCsO3lSPJC-xHYDZZ4&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a5X-zmEJKmNZMW9i0mgZEf2CLNNFkNgYv0SQP5R-WgAl9fvP6RbI8EaAvDtEALw_wcB](https://us.rs-online.com/product/rs-pro/7542100/71815654/?gclsrc=aw.ds&gad_source=1&gad_campaignid=22593105799&gbraid=0AAAAAD-9z7Fd9Zc_kUm8eCjX4V2buscHA&gclid=EAIaIQobChMIm4HlmtyGkAMVwTlECB1H-ABrEAQYASABEgLx1_D_BwE))                 | \* Wide frequency response<br>\* High signal to noise ratio <br>\* Omni directoinal sound detection                                             | \* Limited output constraints<br>\* Can't handle extreme temps. |
+| ![](https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/1/2/12758-02.jpg)<br>\* Option 2. <br>\* Sparkfun microphone breakout <br>\* $8.50/each <br>\* [Link to product](https://www.sparkfun.com/sparkfun-electret-microphone-breakout.html) | \* Integrated amplifier <br>\* More compact <br> \* Wide operating voltage | * More expensive <br>\* Limited frequency range <br>\* Potential power noise                                                       |           
+| ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/2/001/212/MFG_MFG_CMA-4544PF-W%28640x640%29.jpg?hidebanner=true)<br>\* Option 2. <br>\* CMA-4544PF-W Microphone <br>\* $0.76/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/CMA-4544PF-W/1869981?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj1J1-wrnvGXGv0h4K-eIZg2&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a68c1BZp6LEFrLCHPUIop5vsIPro80buftPfndr3yCjhH8FneqTxqMaAmJ3EALw_wcB) | \* Integrated amplifier <br>\* More compact <br> \* Wide operating voltage | * More expensive <br>\* Limited frequency range <br>\* Potential power noise                                                       |
 
-    ![](image1.png)
+**Choice:** Option 2: MCP6004-I/P-ND Op-amp
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+**Rationale:** This op-amp will be most ideal to work with due to its high signal range and low power operation. It has a compact design which will reduce board space, and it is also extremly cost-efficient.
 
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
 
-1. CTX936TR-ND surface mount oscillator
+*Table 3: Component selection (voltage regulator)*
 
-    ![](image3.png)
+**Voltage regulator**
 
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/001/202/810/296%7E4040049%7EN%7E14_sml%28200x200%29.jpg)<br>Option 1.<br> Texas Instruments LM324N Op-Amp <br>$0.47/each<br>[link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM324N/277627?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgDuOhuCsO3lSPJC-xHYDZZ4&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a5X-zmEJKmNZMW9i0mgZEf2CLNNFkNgYv0SQP5R-WgAl9fvP6RbI8EaAvDtEALw_wcB)                 | \* Inexpensive<br>\* Low power <br>\* single supply operation                                               | \* No rail to rail input/output<br>\* Can't handle fast changing signals. |
+| ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/010/927/070/150%7EC04-005%7EP%2C-PD%7E14_sml.jpg)<br>\* Option 2. <br>\* MCP6004-I/P-ND Op-amp <br>\* $0.59/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgDuOhuCsO3lSPJC-xHYDZZ4&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a5mU3gvabJ0blhmie9w81Q18eLWlkL3ABVWDsQnz9WJitiZg9sx0lcaAsvLEALw_wcB) | \* Quad op-amp <br>\* Low current draw <br> \* rail to rail | * More noise <br>\* Lower gain bandwidth                                                         |
+| ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/200/086/208/505%7ER-14%7ER%2CS%7E14_sml.jpg)<br>\* Option 2. <br>\* AD8669ARZ Op-amp <br>\* $9.36/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/analog-devices-inc/AD8669ARZ/1766867?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgDuOhuCsO3lSPJC-xHYDZZ4&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a6_oGgJXxEZETfUrJQS6UQywQOC_dS5omczopwZEbmNXHzO9C1Lu8saAvGqEALw_wcB) | \* Dual op-amp <br>\* Rail to rail input/output <br> \* Low offset | * More expensive <br>\* Dual op-amp may limit ideas                                                        |
 
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+**Choice:** Option 2: MCP6004-I/P-ND Op-amp
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Rationale:** This op-amp will be most ideal to work with due to its high signal range and low power operation. It has a compact design which will reduce board space, and it is also extremly cost-efficient.
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+
+*Table 4: Component selection (button)*
+
+**Button**
+
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/001/202/810/296%7E4040049%7EN%7E14_sml%28200x200%29.jpg)<br>Option 1.<br> Texas Instruments LM324N Op-Amp <br>$0.47/each<br>[link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM324N/277627?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgDuOhuCsO3lSPJC-xHYDZZ4&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a5X-zmEJKmNZMW9i0mgZEf2CLNNFkNgYv0SQP5R-WgAl9fvP6RbI8EaAvDtEALw_wcB)                 | \* Inexpensive<br>\* Low power <br>\* single supply operation                                               | \* No rail to rail input/output<br>\* Can't handle fast changing signals. |
+| ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/010/927/070/150%7EC04-005%7EP%2C-PD%7E14_sml.jpg)<br>\* Option 2. <br>\* MCP6004-I/P-ND Op-amp <br>\* $0.59/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgDuOhuCsO3lSPJC-xHYDZZ4&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a5mU3gvabJ0blhmie9w81Q18eLWlkL3ABVWDsQnz9WJitiZg9sx0lcaAsvLEALw_wcB) | \* Quad op-amp <br>\* Low current draw <br> \* rail to rail | * More noise <br>\* Lower gain bandwidth                                                         |
+| ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/200/086/208/505%7ER-14%7ER%2CS%7E14_sml.jpg)<br>\* Option 2. <br>\* AD8669ARZ Op-amp <br>\* $9.36/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/analog-devices-inc/AD8669ARZ/1766867?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgDuOhuCsO3lSPJC-xHYDZZ4&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a6_oGgJXxEZETfUrJQS6UQywQOC_dS5omczopwZEbmNXHzO9C1Lu8saAvGqEALw_wcB) | \* Dual op-amp <br>\* Rail to rail input/output <br> \* Low offset | * More expensive <br>\* Dual op-amp may limit ideas                                                        |
+
+**Choice:** Option 2: MCP6004-I/P-ND Op-amp
+
+**Rationale:** This op-amp will be most ideal to work with due to its high signal range and low power operation. It has a compact design which will reduce board space, and it is also extremly cost-efficient.
