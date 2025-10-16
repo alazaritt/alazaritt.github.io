@@ -6,7 +6,7 @@ title: Power Budget
 This power budget confirms that the power supply and voltage regulator can safely provide enough current for all major components. This helps ensure stable operation, prevents overload, and takes into account a 25% margin of safety
 
 ![budget1](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/05-Power-Budget/download.png?raw=true)
-![budget2](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/05-Power-Budget/download%20(1).png?raw=true)
+![budget2](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/05-Power-Budget/Screenshot%202025-10-16%20151851.png?raw=true)
 
 ## Conclusions
 
