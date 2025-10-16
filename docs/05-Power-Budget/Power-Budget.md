@@ -7,7 +7,7 @@ This power budget confirms that the power supply and voltage regulator can safel
 
 > Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
-![budget1](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/05-Power-Budget/PowerBudgetExample.pdf){style width:"350" height:"300;"}
+![budget1](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/05-Power-Budget/download.png?raw=true){style width:"350" height:"300;"}
 
 ## Conclusions
 
