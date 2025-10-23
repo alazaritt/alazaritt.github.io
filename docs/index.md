@@ -6,14 +6,14 @@ tags:
 ---
 
 <center>
-<font size= "6">(Arianna Lazaritt) Datasheet</font><br>
+<font size= "6">Arianna Lazaritt's Datasheet</font><br>
 as part of<br>
 <font size= "8"> Project Name</font><br>
 for<br>
 <font size= "5"> Team 205 </font><br>
 
 
-**Submission: month, DD, YYYY**
+**Submission: 10, 27, 2025**
 </center>
 
 
