@@ -15,7 +15,8 @@ title: Component Selection
 
 **Choice:** Option 2: MCP6004-I/P-ND Op-amp
 
-**Rationale:** This op-amp will be most ideal to work with due to its high signal range and low power operation. It has a compact design which will reduce board space, and it is also extremly cost-efficient.
+**Rationale:** This op-amp will be most ideal to work with since it balances low power, high signal range, compact size, and cost. Unlike the other options, it handles faster signals, and it is more affordable and simpler than them. It meets our low-power, space-constrained audio amplification requirements.
+
 
 
 *Table 1: Component selection (microphone)*
