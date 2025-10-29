@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="Page-1" id="KVnrnQtSm5YXsyaFJ4Sy">
     <mxGraphModel dx="1636" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
             <mxPoint y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nj2mh79n9LhGkUkYg5AS-120" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Helvetica&quot;&gt;Microphone&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Helvetica&quot;&gt;RS Americas&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;color: rgb(57, 57, 57); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;7542100&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="nj2mh79n9LhGkUkYg5AS-109" vertex="1">
+        <mxCell id="nj2mh79n9LhGkUkYg5AS-120" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Helvetica&quot;&gt;Microphone&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: rgb(255, 255, 102);&quot;&gt;Same Sky&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font color=&quot;#393939&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;CMA-4544PF-W&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="nj2mh79n9LhGkUkYg5AS-109" vertex="1">
           <mxGeometry x="-114" y="130" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nj2mh79n9LhGkUkYg5AS-121" value="" style="group" parent="nj2mh79n9LhGkUkYg5AS-109" connectable="0" vertex="1">
