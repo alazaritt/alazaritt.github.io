@@ -11,7 +11,7 @@ This block diagram outlines the audio sensor subsystem for a motion- and audio-a
 The subsystem operates at 5V of power via a voltage regulator. A single reset button is included as a digital input. Communication with the main control board is handled through an 8-pin ribbon cable, using one digital signal line and ground. The block diagram documents all major connections, power domains, signal directions, microcontroller use, and team interconnections.
 
 ## Diagram Link
-A direct link to the source file of the following block diagram can be found [here](https://github.com/alazaritt/alazaritt.github.io/raw/main/docs/01-Block-Diagram/individual%20block%20diagram.drawio).
+A direct link to the source file of the following block diagram can be found [here](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/01-Block-Diagram/individual%20block%20diagram.drawio).
 
 ## Sound Board Block Diagram 
 
