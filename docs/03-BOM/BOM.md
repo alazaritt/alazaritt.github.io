@@ -8,13 +8,12 @@ tags:
 ## Overview
 written context
 
-## Bill of Materials (as a Table)
+## Bill of Materials
 
 *Table 1: All necessary parts for this system*
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-8-bit SIPO/SISO Shift Register, SOIC-16 package | 1 | $0.49 | $ 0.49 | NXP | 74HC595D,112 | [DigiKey](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550) | [datasheet link](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf) | U1 |
 0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |5 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | C1, C2, C3, C4, C5
 Green LED |1 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | D1
 Diode 1N4001 |2 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | D2, D3
@@ -26,7 +25,7 @@ Extra headers |1 | 0.49 | $0.49 | Sullins Connector Solutions | PPPC032LFBN-RC |
 Small bridged jumpers |5 | 0.28 | $0.28 | Würth Elektronik | 60900213421 | [Digikey](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/60900213421/2508447?_gl=1*12v59x2*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw9obIBhCAARIsAGHm1mTLDRXDakWGRrs9ohV3KXy1B5y6atAdIdp1YkcTolW-Qg_2YCQlunkaAgrtEALw_wcB&gclsrc=aw.ds&gbraid=0AAAAADrbLljH419YQeFrbB_kmy0pBIrpC) |[datasheet](https://www.we-online.com/components/products/datasheet/60900213421.pdf) | JP1, JP2, JP3, JP4, JP5
 Voltage regulator |1 | 0.50 | $0.50 | STMicroelectronics |L7805CV | [Digikey](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLljH419YQeFrbB_kmy0pBIrpC&gclid=Cj0KCQjw9obIBhCAARIsAGHm1mTLDRXDakWGRrs9ohV3KXy1B5y6atAdIdp1YkcTolW-Qg_2YCQlunkaAgrtEALw_wcB) |[datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf) | L7805AL1
 Microphone |1 | 0.76 | $0.76 | Same Sky | CMA-4544PF-W | [Digikey](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CMA-4544PF-W/1869981) |[datasheet](https://www.sameskydevices.com/product/resource/cma-4544pf-w.pdf) | MK1
-Curiosity Nano PIC18F57Q4 |1 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | CuriosityNanoAL1
+Curiosity Nano PIC18F57Q4 |1 | 10.19 | $10.19 | Microchip | DM164150 | PRLTA 109 |datasheet[https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/UserGuides/PIC18F57Q43-Curiosity-Nano-HW-UserGuide-DS40002186B.pdf] | CuriosityNanoAL1
 10k ohm resistor |3 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | R1, R3, R9
 100k ohm resistor |1 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | R2
 1k ohm resistor |1 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | R4
