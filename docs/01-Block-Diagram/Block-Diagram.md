@@ -15,4 +15,4 @@ A direct link to the source file of the following block diagram can be found [he
 
 ## Sound Board Block Diagram 
 
-![Individual Block diagram ](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/01-Block-Diagram/individual%20block%20diagram1.drawio.png?raw=true)
+![Individual Block diagram ](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/01-Block-Diagram/individual%20block%20diagram.drawio.png?raw=true)
