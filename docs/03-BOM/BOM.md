@@ -15,8 +15,8 @@ written context
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
 0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |5 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | C1, C2, C3, C4, C5
-Green LED |1 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | D1
-Diode 1N4001 |2 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | D2, D3
+Green LED |1 | 0.24 | $0.24 | Würth Elektronik | 151051VS04000 | PRLTA 109 |n/a | D1
+Diode 50V 1A |2 | 0.2750 | $2.75 | Diotec Semiconductor | 1N4001 | PRLTA 109 |n/a | D2, D3
 200mA fuse |1 | 1.54 | $1.54 | Littelfuse Inc. | 0251.200MXL | [Digikey](https://www.digikey.com/en/products/detail/littelfuse-inc/0251-200MXL/700695?_gl=1*wdb7kz*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw9obIBhCAARIsAGHm1mTLDRXDakWGRrs9ohV3KXy1B5y6atAdIdp1YkcTolW-Qg_2YCQlunkaAgrtEALw_wcB&gclsrc=aw.ds&gbraid=0AAAAADrbLljH419YQeFrbB_kmy0pBIrpC) |[datasheet](https://www.littelfuse.com/assetdocs/fuse-251-datasheet?assetguid=f47a0bb7-8ede-4679-9646-7114c3787688) | F1
 Barrel jack switch |1 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | J1
 Ribbon connector |1 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | J2
