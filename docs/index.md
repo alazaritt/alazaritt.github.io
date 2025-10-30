@@ -23,19 +23,13 @@ This datasheet provides an overview of the sound detection board, a key componen
 
 ### Project Summary
 
-My part of the overall project focuses on the sound detection board. It uses a microphone to capture specific audio cues, which is then amplified by an op-amp. This signal is then processed by a microcontroller that will determine if the detected sound has reached a certain threshold to then send a signal to a separate controls board. That separate board will take the signal from my sound detection board and relay it to a light control board to either turn on or off a set of lights. 
+Our full team project focuses on creating a hands-free lighting system using four interconnected PCBs. The system includes a sound detection board that responds to audio cues and a motion detection board that senses movement. When either board is activated, a signal is sent to a control board, which processes the inputs and determines whether to turn the lights on or off. The control board then communicates with the light board, which powers and manages the illumination, providing an efficient and convenient automatic lighting solution.
 
-The successful development of this module is critical to the overall performance of the team project. By providing accurate and timely sound detection, my work ensures that the lighting system can respond reliably to auditory cues. This complements the motion detection module and enhances the system’s functionality, contributing directly to the team’s objective of creating an intelligent, hands-free lighting solution. More details on project requirements, user needs, and other aspects of the overall system can be found in the [team report.](https://egr304-team-205-2025-f.github.io/EGR304-2025-F-205.github.io)
-
-For all the sections
 ### My Contribution
 
+My part of the overall project focuses on the sound detection board. It uses a microphone to capture specific audio cues, which is then amplified by an op-amp. This signal is then processed by a microcontroller that will determine if the detected sound has reached a certain threshold to then send a signal to a separate controls board. That separate board will take the signal from my sound detection board and relay it to a light control board to either turn on or off a set of lights. 
 
-
-
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
-
+The successful development of this module is critical to the overall performance of the team project. By providing accurate and timely sound detection, my work ensures that the lighting system can respond reliably to auditory cues. This complements the motion detection module and enhances the system’s functionality, contributing directly to the team’s objective of creating an intelligent, hands-free lighting solution. More details on project requirements, user needs, and other aspects of the overall system can be found in the [team report.](https://egr304-team-205-2025-f.github.io/EGR304-2025-F-205.github.io
 
 
 To see how each major component within the subsytem communicates and interacts, see the [Block Diagram](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/01-Block-Diagram/Block-Diagram.md ) section of the datasheet.
