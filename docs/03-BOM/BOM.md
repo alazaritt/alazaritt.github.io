@@ -26,12 +26,12 @@ Small bridged jumpers |5 | 0.28 | $0.28 | Würth Elektronik | 60900213421 | [Dig
 Voltage regulator |1 | 0.50 | $0.50 | STMicroelectronics |L7805CV | [Digikey](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLljH419YQeFrbB_kmy0pBIrpC&gclid=Cj0KCQjw9obIBhCAARIsAGHm1mTLDRXDakWGRrs9ohV3KXy1B5y6atAdIdp1YkcTolW-Qg_2YCQlunkaAgrtEALw_wcB) |[datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf) | L7805AL1
 Microphone |1 | 0.76 | $0.76 | Same Sky | CMA-4544PF-W | [Digikey](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CMA-4544PF-W/1869981) |[datasheet](https://www.sameskydevices.com/product/resource/cma-4544pf-w.pdf) | MK1
 Curiosity Nano PIC18F57Q4 |1 | 10.19 | $10.19 | Microchip | DM164150 | PRLTA 109 |[datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/UserGuides/PIC18F57Q43-Curiosity-Nano-HW-UserGuide-DS40002186B.pdf) | CuriosityNanoAL1
-10k ohm resistor |3 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | R1, R3, R9
-100k ohm resistor |1 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | R2
-1k ohm resistor |1 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | R4
-2.2k ohm resistor |1 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | R5
-100 ohm resistor |2 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | R6, R7
-220 ohm resistor |1 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | R8
+10k ohm resistor |3 | 0.10 | $0.10 | YAGEO | MFR25SFTF52-10K | PRLTA 109 |n/a | R1, R3, R9
+100k ohm resistor |1 | 0.10 | $0.10 | YAGEO | MFR25SFBE52-100K | PRLTA 109 |n/a | R2
+1k ohm resistor |1 | 0.10 | $0.10 | YAGEO | MFR-25FTF52-1K | PRLTA 109 |n/a | R4
+2.2k ohm resistor |1 | 0.10 | $0.10 | YAGEO | MFR-25FTF52-2K2 | PRLTA 109 |n/a | R5
+100 ohm resistor |2 | 0.10 | $0.10 | YAGEO | MFR-25FTF52-100R | PRLTA 109 |n/a | R6, R7
+220 ohm resistor |1 | 0.10 | $0.10 | YAGEO | MFR-25FTF52-220R | PRLTA 109 |n/a | R8
 10k potentiometer |1 | 1.66 | $1.66 | TT Electronics/BI | P160KN2-0QA25B10K | PRLTA 109 |[datasheet](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/P160.pdf) | RV1
 Push button switch |1 | 0.10 | $0.10 | Same Sky | TS02-66-43-BK-260-LCR-D | PRLTA 109 |n/a | SW1
 Test point |5 | 0.33 | $0.33 | Keystone Electronics | 5001 | [Digikey](https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?_gl=1*19b3dyz*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw9obIBhCAARIsAGHm1mTLDRXDakWGRrs9ohV3KXy1B5y6atAdIdp1YkcTolW-Qg_2YCQlunkaAgrtEALw_wcB&gclsrc=aw.ds&gbraid=0AAAAADrbLljH419YQeFrbB_kmy0pBIrpC) |[datasheet](https://www.keyelco.com/userAssets/file/M65p56.pdf) | TP1, TP2, TP3, TP4, TP5
