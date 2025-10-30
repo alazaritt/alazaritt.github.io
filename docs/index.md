@@ -38,6 +38,9 @@ For all the sections
 
 
 
-
+To see how each major component within the subsytem communicates and interacts, see the [Block Diagram]( section of the datasheet.
+For additional reasoning of why individual components were selected, please see the [Component selection] section of the datasheet.
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
+For a more in depth overview of the subsystem and to access associated files with it, review the [Schematic] section of thie datasheet.
+To see how power was taken into consideration and a calulated current draw of all components within the system, see the [Power Budget] section of the datasheet.
 
