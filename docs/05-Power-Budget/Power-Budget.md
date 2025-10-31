@@ -14,4 +14,4 @@ From the prepared Power Budget, it is clear that the chosen power supply and vol
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/05-Power-Budget/PowerBudgetExample.pdf) and as an excel file [*here*](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/05-Power-Budget/PowerBudgetExample.xlsx).
+The power budget as a PDF download is available [*here*](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/05-Power-Budget/PowerBudgetExample.pdf) and as an excel file [*here*](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/05-Power-Budget/PowerBudget.xlsx).
