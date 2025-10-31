@@ -62,3 +62,8 @@ title: Component Selection
 **Choice:** Option 2: TS02-66-43-BK-260-LCR-D button
 
 **Rationale:** The button was chosen for its compactness and user friendliness. With a 50 mA current rating and 12 VDC voltage rating, it is appropriate for low-power control circuits. The switch's 60,000-cycle mechanical life ensures durability for typical user interactions. 
+
+**Overall Rationale**
+Each component was chosen through an evaluation of performance, cost, and compatibility with the system’s low-power and compact design requirements. The MCP6004-I/P op-amp was chosen for its low power consumption, high signal range, and stable signal amplification. This makes it ideal for accurate signal processing while keeping cost and complexity low. The CMA-4544PF-W microphone provides a wide frequency range and high signal-to-noise ratio, ensuring clear and reliable sound detection while remaining compact enough to fulfill project requirements.
+
+To maintain stable operation, the L7805CV voltage regulator was selected for its reliable 5 V output, built-in protection features, and simplicity, making it optimal for low-power circuitry. Finally, the TS02-66-43-BK-260-LCR-D button offers durability, small size, and suitable electrical ratings for low-voltage control inputs. Together, these components meet the product’s requirements for efficiency, reliability, and cost-effectiveness, ensuring consistent performance within the intended conditions.
