@@ -22,4 +22,4 @@ The microcontroller subsystem processes the amplified sound signal, detects when
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/04-Schematic/individual%20subsystem.pdf), and the Zip folder of the project [*here*](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/04-Schematic/individual%20subsystem.zip).
+The schematic as a PDF download is available [*here*](https://github.com/alazaritt/alazaritt.github.io/releases/download/schematicpdf/individual.subsystem.pdf), and the Zip folder of the project [*here*](https://github.com/alazaritt/alazaritt.github.io/releases/download/individualschematiczip/individual.subsystem.zip)
