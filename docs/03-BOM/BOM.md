@@ -6,11 +6,11 @@ tags:
 ---
 
 ## Overview
-written context
+The Bill of Materials (BOM) outlines all necessary components for the design and assembly of the project. It includes each part’s specifications, quantity, and cost, providing a clear and comprehensive overview of the materials needed for construction. Serving as a key reference document, the BOM ensures component compatibility and reliable production of the final design.
 
 ## Bill of Materials
 
-*Table 1: All necessary parts for this system*
+*Table 1: All necessary parts for the sound board system*
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
@@ -37,12 +37,3 @@ Push button switch |1 | 0.10 | $0.10 | Same Sky | TS02-66-43-BK-260-LCR-D | PRLT
 Test point |5 | 0.33 | $1.65 | Keystone Electronics | 5001 | [Digikey](https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327?_gl=1*19b3dyz*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw9obIBhCAARIsAGHm1mTLDRXDakWGRrs9ohV3KXy1B5y6atAdIdp1YkcTolW-Qg_2YCQlunkaAgrtEALw_wcB&gclsrc=aw.ds&gbraid=0AAAAADrbLljH419YQeFrbB_kmy0pBIrpC) |[datasheet](https://www.keyelco.com/userAssets/file/M65p56.pdf) | TP1, TP2, TP3, TP4, TP5
 MCP6004 Op Amp |1 | 0.59 | $0.59 | Microchip Technology | MCP6004-I/P | PRLTA 109 |[datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf) | U1
 
-
-
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
-
-## Bill of Materials Example (as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure 2:** Example Bill of Materials as a screenshot.
-
-As you can see, the text can be difficult to read without opening the image.
