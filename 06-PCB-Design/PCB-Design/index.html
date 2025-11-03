@@ -761,15 +761,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#diagram-link" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram Link
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#pcb-design-layout" class="md-nav__link">
     <span class="md-ellipsis">
       PCB Design Layout
@@ -884,15 +875,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#diagram-link" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram Link
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#pcb-design-layout" class="md-nav__link">
     <span class="md-ellipsis">
       PCB Design Layout
@@ -927,8 +909,13 @@
   <h1>PCB Design</h1>
 
 <h2 id="overview">Overview</h2>
-<h2 id="diagram-link">Diagram Link</h2>
+<p>My PCB is responsible for detecting environmental sounds through a microphone, amplifying the signal with an op-amp, and sending a processed digital signal to the system’s control board via a microcontroller. The PCB layout ensures that the microphone and op-amp are properly placed for minimal noise, and that the microcontroller’s power and ground connections are strong enough for reliable signal transmission. </p>
+<p>In order to safely carry current, all power and ground traces are 40 mils, which also reduces voltage drops. All other signal traces, like those connecting the microphone, op-amp, and microcontroller I/O pins, are 20 mils, which is sufficient for lower current signals. Bypass and decoupling capacitors have been placed as close as possible to the microcontroller power pins, with shorter traces to reduce noise. This design ensures reliable detection of sound events while maintaining manufacturability and signal strength.</p>
 <h2 id="pcb-design-layout">PCB Design Layout</h2>
+<p>top layer</p>
+<p>bottom layer</p>
+<p>both</p>
+<p>The zip folder of the project is available [here]</p>
 
 
 
