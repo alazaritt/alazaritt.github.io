@@ -22,4 +22,4 @@ Top Layer
 Bottom Layer
 ![figure3](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/PCB%20bottom%20png.png?raw=true)
 
-The zip folder of the project is available [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/schematiczip/individual.subsystem.zip) and the zip folder of the gerber files are available [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/gerberfiles/AriannaLazaritt205.zip).
+The zip folder of the project is available [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/schematiczip/individual.subsystem.zip), the zip folder of the gerber files are available [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/gerberfiles/AriannaLazaritt205.zip), and a pdf download of the PCB can be found [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/pcbpdf/pcb.pdf)>
