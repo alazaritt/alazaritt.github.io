@@ -16,7 +16,7 @@ The microcontroller subsystem processes the amplified sound signal, detects when
 
 
 
-![schematic](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/04-Schematic/individual%20subsystem%20ss.png?raw=true)
+![schematic](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/04-Schematic/individual%20schematic.png?raw=true)
 **Figure 1:** Sound board schematic
 
 
