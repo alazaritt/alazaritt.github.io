@@ -31,7 +31,7 @@ Curiosity Nano PIC18F57Q4 |1 | 10.19 | $10.19 | Microchip | DM164150 | PRLTA 109
 2.2k ohm resistor |1 | 0.10 | $0.10 | YAGEO | MFR-25FTF52-2K2 | PRLTA 109 |n/a | R5
 100 ohm resistor |2 | 0.10 | $0.20 | YAGEO | MFR-25FTF52-100R | PRLTA 109 |n/a | R6, R7
 220 ohm resistor |1 | 0.10 | $0.10 | YAGEO | MFR-25FTF52-220R | PRLTA 109 |n/a | R8
-10k potentiometer |1 | 1.66 | $1.66 | TT Electronics/BI | P160KN2-0QA25B10K | PRLTA 109 |[datasheet](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/P160.pdf) | RV1
+5k ohm resistor |1 | 0.10 | $0.10 | YAGEO | MFR-25FTF52-5k | PRLTA 109 |n/a | R10
 Push button switch |1 | 0.10 | $0.10 | Same Sky | TS02-66-43-BK-260-LCR-D | PRLTA 109 |n/a | SW1
 MCP6004 Op Amp |1 | 0.59 | $0.59 | Microchip Technology | MCP6004-I/P | PRLTA 109 |[datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf) | U1
 
