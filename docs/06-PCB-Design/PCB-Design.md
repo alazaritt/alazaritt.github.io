@@ -14,12 +14,12 @@ In order to safely carry current, all power and ground traces are 40 mils, which
 ## PCB Design Layout
 
 Both Layers
-![figure1](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/PCB%20png.png?raw=true)
+![figure1](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20both.png?raw=true)
 
 Top Layer
-![figure2](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/PCB%20top%20png.png?raw=true)
+![figure2](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20cu.png?raw=true)
 
 Bottom Layer
-![figure3](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/PCB%20bottom%20png.png?raw=true)
+![figure3](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20bottom.png?raw=true)
 
 The zip folder of the project is available [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/schematiczip/individual.subsystem.zip), the zip folder of the gerber files are available [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/gerberfiles/AriannaLazaritt205.zip), and a pdf download of the PCB can be found here: [top layer](https://github.com/alazaritt/alazaritt.github.io/releases/download/pcbpdf/pcb.pdf), [bottom layer](https://github.com/alazaritt/alazaritt.github.io/releases/download/pcbpdfcont/gnd.pdf)., [both layers](https://github.com/alazaritt/alazaritt.github.io/releases/download/pcbpdfcont/all.pdf).
