@@ -6,9 +6,11 @@ tags:
 ---
 
 ## Overview
-This block diagram outlines the audio sensor subsystem for a motion- and audio-activated light. The board includes a microphone for detecting sound, with an op-amp used to tune the analog signal before it is read by the onboard ADC of the PIC18F57Q43 Curiosity Nano microcontroller. A digital output signal is then sent to a teammate's board to trigger a response.
+This block diagram outlines the audio sensor subsystem for an audio-activated light. The board includes a microphone for detecting sound, with an op-amp used to tune the analog signal before it is read by the onboard ADC of the PIC18F57Q43 Curiosity Nano microcontroller. A digital output signal is then sent to a teammate's board to trigger a light as well as to make a motor stop spinning.
 
-The subsystem operates at 5V of power via a voltage regulator. A single reset button is included as a digital input. Communication with the main control board is handled through an 8-pin ribbon cable, using one digital signal line and ground. The block diagram documents all major connections, power domains, signal directions, microcontroller use, and team interconnections.
+The subsystem operates at 5V of power via a voltage regulator, or through power and ground being fed through the ribbon connector. An override button to turn on the light regardless of sensing is included as a digital input. Communication with the main control board is handled through an 8-pin ribbon cable, using one digital signal line. The block diagram documents all major connections, power domains, signal directions, microcontroller use, and team interconnections.
+
+Each element of the block diagram contributes to key aspects of my team's product requirments. The main idea of our product is that a light is triggered in a hands-free way, specifically by using a microphone (as shown in the image below). The signal from the microphone goes through the op-amp to ensure that a clean signal is read, as our product requirments aim to minimze false triggers. The microcontroller is responsible for analyzing the  input signal and converting it to a digital output signal to toggle the light. The manual override button was also a key part of our product requirements, as we wanted consumers to have the option to turn a light on even if the room is lit or if sound is not detected.
 
 ## Diagram Link
 A direct link to the source file of the following block diagram can be found [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/blockdiagram.io/individual.block.diagram.drawio).
