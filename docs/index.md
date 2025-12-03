@@ -13,7 +13,7 @@ for<br>
 <font size= "5"> Team 205 </font><br>
 
 
-**Submission: 10/30/2025**
+**Submission: 12/8/2025**
 </center>
 
 
@@ -38,9 +38,10 @@ For additional reasoning of why individual components were selected, please see 
 
 To review the details listed of the material used to construct the subsection, you can review it in the [BOM](https://alazaritt.github.io/03-BOM/BOM/) section of the datasheet.
 
-For a more in depth overview of the subsystem and to access associated files with it, review the [Schematic](https://alazaritt.github.io/04-Schematic/schematic/) section of thie datasheet.
+For a more in depth overview of the subsystem and to access associated files with it, review the [Schematic](https://alazaritt.github.io/04-Schematic/schematic/) section of the datasheet.
 
 To see how power was taken into consideration and a calulated current draw of all components within the system, see the [Power Budget](https://alazaritt.github.io/05-Power-Budget/Power-Budget/) section of the datasheet.
 
 The fully developed PCB of this subsystem can be found in the [PCB Design](https://alazaritt.github.io/06-PCB-Design/PCB-Design/) section of the datasheet.
 
+The code that wwas used to run the subsytem can be found in the [Microcontroller Code](https://alazaritt.github.io/07-Microcontroller-Code/code/) part of the datasheet.
