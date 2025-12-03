@@ -14,12 +14,12 @@ In order to safely carry current, all power and ground traces are 40 mils, which
 ## PCB Design Layout
 
 Both Layers
-![figure1](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20both.png?raw=true)
+![figure1](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20both%20layers.png?raw=true)
 
 Top Layer
-![figure2](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20cu.png?raw=true)
+![figure2](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20copper%20layer.png?raw=true)
 
 Bottom Layer
-![figure3](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20bottom.png?raw=true)
+![figure3](https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20bottom%20layer.png?raw=true)
 
-The zip folder of the project is available [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/pcbzip/individual.subsystem.zip), the zip folder of the gerber files are available [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/gerberfiles/LazarittArianna205.zip).
+The zip folder of the project is available [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/schematiczip/individual.subsystem.zip), the zip folder of the gerber files are available [here](https://github.com/alazaritt/alazaritt.github.io/releases/download/newpcbzip/Arianna.Lazaritt.205.Gerber.zip).
