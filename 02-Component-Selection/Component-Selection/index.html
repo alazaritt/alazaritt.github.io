@@ -1054,30 +1054,41 @@
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><strong>Part Name/Description</strong></th>
-<th style="text-align: left;"><strong>Manufacturer/Part Number</strong></th>
-<th style="text-align: left;"><strong>Function</strong></th>
-<th style="text-align: left;"><strong>Rationale</strong></th>
+<th style="text-align: left;"><strong>Component</strong></th>
+<th style="text-align: left;"><strong>Pin</strong></th>
+<th style="text-align: left;"><strong>Pin Type</strong></th>
+<th style="text-align: left;"><strong>Direction</strong></th>
+<th style="text-align: left;"><strong>Purpose</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">Op-amp</td>
-<td style="text-align: left;">Microchip/MCP6004-I/P-ND</td>
-<td style="text-align: left;">Amplifies and conditions analog signal from the microphone</td>
-<td style="text-align: left;">This op-amp balances low power and high signal range regardless of signal speed</td>
+<td style="text-align: left;">Microphone (ADC)</td>
+<td style="text-align: left;">RA0</td>
+<td style="text-align: left;">Analog</td>
+<td style="text-align: left;">Input</td>
+<td style="text-align: left;">Signal from microphone is read and analyzed by microcontroller</td>
 </tr>
 <tr>
-<td style="text-align: left;">Microphone</td>
-<td style="text-align: left;">Same Sky/CMA-4544PF-W</td>
-<td style="text-align: left;">converts sound to an electrical signal</td>
-<td style="text-align: left;">It provides a wide range frequency response and stable sensitivity. Its small size, low power requirement, and standard interface also simplify integration within the subsytem</td>
+<td style="text-align: left;">Ribbon connector</td>
+<td style="text-align: left;">RA1</td>
+<td style="text-align: left;">Digital</td>
+<td style="text-align: left;">Output</td>
+<td style="text-align: left;">Sends the received signal from the micrphone to a teammate's board via a ribbon connector</td>
 </tr>
 <tr>
-<td style="text-align: left;">Voltage regulator</td>
-<td style="text-align: left;">STMicroelectronics/L7805CV</td>
-<td style="text-align: left;">To ensure that only 5V of power runs through the circuit</td>
-<td style="text-align: left;">It allows for a fixed 5 V output with up to ~1.5 A of current. Its reliability and tolerance to voltage variations ensure safety, as there’s enough headroom voltage to dissipate heat.</td>
+<td style="text-align: left;">Button</td>
+<td style="text-align: left;">RB4</td>
+<td style="text-align: left;">Digital</td>
+<td style="text-align: left;">Input</td>
+<td style="text-align: left;">Provides a manual override button if a user wants to trigger the light regardless of soud detction</td>
+</tr>
+<tr>
+<td style="text-align: left;">LED</td>
+<td style="text-align: left;">RF3</td>
+<td style="text-align: left;">Digital</td>
+<td style="text-align: left;">Output</td>
+<td style="text-align: left;">Turns on when a signal is sent to the other board</td>
 </tr>
 </tbody>
 </table>
