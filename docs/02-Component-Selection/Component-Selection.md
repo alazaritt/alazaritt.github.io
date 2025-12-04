@@ -78,8 +78,9 @@ Voltage regulator |STMicroelectronics/L7805CV  | To ensure that only 5V of power
 
 *Table 5: MCC Pinout*
 
-| **Part Name/Description** | **Manufacturer/Part Number** | **Function** | **Rationale** |
-|:--------------------|:----|:---------------|:-----|
-Op-amp | Microchip/MCP6004-I/P-ND | Amplifies and conditions analog signal from the microphone | This op-amp balances low power and high signal range regardless of signal speed | 
-Microphone | Same Sky/CMA-4544PF-W | converts sound to an electrical signal | It provides a wide range frequency response and stable sensitivity. Its small size, low power requirement, and standard interface also simplify integration within the subsytem | 
-Voltage regulator |STMicroelectronics/L7805CV  | To ensure that only 5V of power runs through the circuit | It allows for a fixed 5 V output with up to ~1.5 A of current. Its reliability and tolerance to voltage variations ensure safety, as there’s enough headroom voltage to dissipate heat. |
+| **Component** | **Pin** | **Pin Type** | **Direction** | **Purpose** |
+|:--------------------|:----|:---------------|:-----|:-----|
+Microphone (ADC) | RA0 | Analog | Input | Signal from microphone is read and analyzed by microcontroller |
+Ribbon connector  | RA1 | Digital | Output | Sends the received signal from the micrphone to a teammate's board via a ribbon connector |
+Button | RB4 | Digital | Input | Provides a manual override button if a user wants to trigger the light regardless of soud detction |
+LED | RF3 | Digital | Output | Turns on when a signal is sent to the other board |
