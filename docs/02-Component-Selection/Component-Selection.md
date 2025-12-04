@@ -70,8 +70,9 @@ To maintain stable operation, the L7805CV voltage regulator was selected for its
 *Table 4: Final Components Selected (summary)*
 
 
-| **Part Name/Description** | **Qty** | **Manufacturer** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Reason for Selection** |
-|:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-microphone |5 | 0.2750 | $1.38 | KEMET | C0805F104K5RACTU | PRLTA 109 |
-voltage regulator |1 | 0.24 | $0.24 | Würth Elektronik | 151051BS04000 | PRLTA 109 |
-op amp |1 | 1.17 | $1.17 | Littlefuse Inc. | 0251.750MXL | [Digikey](https://www.digikey.com/en/products/detail/littelfuse-inc/0251.750MXL/776753?gclsrc=aw.ds&gad_source=1&gad_campaignid=17336967819&gbraid=0AAAAADrbLljVP_hvsoPNmoiyOzvli6A1H&gclid=CjwKCAiA3L_JBhAlEiwAlcWO551v7cZI3CLy-OUJ_Ty_XauunP9iPlErnZ1FgIZcRNVv_qA8IOw4fhoC1PEQAvD_BwE) |
+
+| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |
+|:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|
+0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |5 | 0.2750 | $1.38 | KEMET | C0805F104K5RACTU | PRLTA 109 |
+Green LED |1 | 0.24 | $0.24 | Würth Elektronik | 151051BS04000 | PRLTA 109 |
+Barrel jack switch |1 | 0.76 | $0.76 | Same Sky | PJ-102AH | n/a |
