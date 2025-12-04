@@ -1,3 +1,10 @@
+---
+title: Hardware V2.0
+tags:
+- tag1
+- tag2
+---
+
 If a Version 2.0 of this audio-sensor subsystem were developed, my main focus would be improving the signal picked up by the microphone. The microphone’s raw output is typically a very low-level AC voltage, which makes it susceptible to noise and interference. While there are ways to enhance this with the code, I feel like improving it with hardware and strengthening this signal before it reaches the microcontroller would make it more reliable. 
 
 To implement proper frequency filtering, RC filter networks would be inserted around the microphone and amplifier stages. For example, a series coupling capacitor (1–10 μF) followed by a resistor (possibly 10 k ohms) to ground at the microphone output forms a high-pass filter to block DC and low-frequency noise. After the op-amp output, a low-pass filter could be created using a resistor and capacitor to attenuate high-frequency noise. These filters would require adding a few small-value capacitors and precision resistors to ensure the signal detected is clear.
