@@ -63,7 +63,15 @@ title: Component Selection
 
 **Rationale:** The button was chosen for its compactness and user friendliness. With a 50 mA current rating and 12 VDC voltage rating, it is appropriate for low-power control circuits. The switch's 60,000-cycle mechanical life ensures durability for typical user interactions. 
 
-**Overall Rationale**
-Each component was chosen through an evaluation of performance, cost, and compatibility with the system’s low-power and compact design requirements. The MCP6004-I/P op-amp was chosen for its low power consumption, high signal range, and stable signal amplification. This makes it ideal for accurate signal processing while keeping cost and complexity low. The CMA-4544PF-W microphone provides a wide frequency range and high signal-to-noise ratio, ensuring clear and reliable sound detection while remaining compact enough to fulfill project requirements.
+**Overall Rationale:** Each component was chosen through an evaluation of performance, cost, and compatibility with the system’s low-power and compact design requirements. The MCP6004-I/P op-amp was chosen for its low power consumption, high signal range, and stable signal amplification. This makes it ideal for accurate signal processing while keeping cost and complexity low. The CMA-4544PF-W microphone provides a wide frequency range and high signal-to-noise ratio, ensuring clear and reliable sound detection while remaining compact enough to fulfill project requirements.
 
 To maintain stable operation, the L7805CV voltage regulator was selected for its reliable 5 V output, built-in protection features, and simplicity, making it optimal for low-power circuitry. Finally, the TS02-66-43-BK-260-LCR-D button offers durability, small size, and suitable electrical ratings for low-voltage control inputs. Together, these components meet the product’s requirements for efficiency, reliability, and cost-effectiveness, ensuring consistent performance within the intended conditions.
+
+*Table 4: Final Components Selected (summary)*
+
+
+| **Part Name/Description** | **Qty** | **Manufacturer** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Reason for Selection** |
+|:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
+microphone |5 | 0.2750 | $1.38 | KEMET | C0805F104K5RACTU | PRLTA 109 |
+voltage regulator |1 | 0.24 | $0.24 | Würth Elektronik | 151051BS04000 | PRLTA 109 |
+op amp |1 | 1.17 | $1.17 | Littlefuse Inc. | 0251.750MXL | [Digikey](https://www.digikey.com/en/products/detail/littelfuse-inc/0251.750MXL/776753?gclsrc=aw.ds&gad_source=1&gad_campaignid=17336967819&gbraid=0AAAAADrbLljVP_hvsoPNmoiyOzvli6A1H&gclid=CjwKCAiA3L_JBhAlEiwAlcWO551v7cZI3CLy-OUJ_Ty_XauunP9iPlErnZ1FgIZcRNVv_qA8IOw4fhoC1PEQAvD_BwE) |
