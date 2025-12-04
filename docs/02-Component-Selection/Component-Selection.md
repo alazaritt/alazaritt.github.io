@@ -69,10 +69,17 @@ To maintain stable operation, the L7805CV voltage regulator was selected for its
 
 *Table 4: Final Components Selected (summary)*
 
+| **Part Name/Description** | **Manufacturer/Part Number** | **Function** | **Rationale** |
+|:--------------------|:----|:---------------|:-----|
+Op-amp | Microchip/MCP6004-I/P-ND | Amplifies and conditions analog signal from the microphone | This op-amp balances low power and high signal range regardless of signal speed | 
+Microphone | Same Sky/CMA-4544PF-W | converts sound to an electrical signal | It provides a wide range frequency response and stable sensitivity. Its small size, low power requirement, and standard interface also simplify integration within the subsytem | 
+Voltage regulator |STMicroelectronics/L7805CV  | To ensure that only 5V of power runs through the circuit | It allows for a fixed 5 V output with up to ~1.5 A of current. Its reliability and tolerance to voltage variations ensure safety, as there’s enough headroom voltage to dissipate heat. |
 
 
-| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |
-|:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|
-0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |5 | 0.2750 | $1.38 | KEMET | C0805F104K5RACTU | PRLTA 109 |
-Green LED |1 | 0.24 | $0.24 | Würth Elektronik | 151051BS04000 | PRLTA 109 |
-Barrel jack switch |1 | 0.76 | $0.76 | Same Sky | PJ-102AH | n/a |
+*Table 5: MCC Pinout*
+
+| **Part Name/Description** | **Manufacturer/Part Number** | **Function** | **Rationale** |
+|:--------------------|:----|:---------------|:-----|
+Op-amp | Microchip/MCP6004-I/P-ND | Amplifies and conditions analog signal from the microphone | This op-amp balances low power and high signal range regardless of signal speed | 
+Microphone | Same Sky/CMA-4544PF-W | converts sound to an electrical signal | It provides a wide range frequency response and stable sensitivity. Its small size, low power requirement, and standard interface also simplify integration within the subsytem | 
+Voltage regulator |STMicroelectronics/L7805CV  | To ensure that only 5V of power runs through the circuit | It allows for a fixed 5 V output with up to ~1.5 A of current. Its reliability and tolerance to voltage variations ensure safety, as there’s enough headroom voltage to dissipate heat. |
