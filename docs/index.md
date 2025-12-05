@@ -44,4 +44,7 @@ To see how power was taken into consideration and a calulated current draw of al
 
 The fully developed PCB of this subsystem can be found in the [PCB Design](https://alazaritt.github.io/06-PCB-Design/PCB-Design/) section of the datasheet.
 
-The code that wwas used to run the subsytem can be found in the [Microcontroller Code](https://alazaritt.github.io/07-Microcontroller-Code/code/) part of the datasheet.
+The code that wwas used to run the subsytem can be found in the [Resources](https://alazaritt.github.io/07-Resources/Resources/) part of the datasheet.
+
+Ideas of hardware improvements and adjustments are documented under [Hardware V2.0](https://alazaritt.github.io/08-Hardware-V2.0/Hardware%20V2.0/)
+
