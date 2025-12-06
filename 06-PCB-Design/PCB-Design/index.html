@@ -801,9 +801,27 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#pcb-design-layout" class="md-nav__link">
+  <a href="#pcb-design-layout-ecad" class="md-nav__link">
     <span class="md-ellipsis">
-      PCB Design Layout
+      PCB Design Layout (ECAD)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-pcb" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final PCB
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcb-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      PCB Resources
     </span>
   </a>
   
@@ -1007,9 +1025,27 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#pcb-design-layout" class="md-nav__link">
+  <a href="#pcb-design-layout-ecad" class="md-nav__link">
     <span class="md-ellipsis">
-      PCB Design Layout
+      PCB Design Layout (ECAD)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-pcb" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final PCB
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcb-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      PCB Resources
     </span>
   </a>
   
@@ -1043,13 +1079,20 @@
 <h2 id="overview">Overview</h2>
 <p>My PCB is responsible for detecting environmental sounds through a microphone, amplifying the signal with an op-amp, and sending a processed digital signal to a seperate board via a microcontroller. The PCB layout ensures that the microphone and op-amp are properly placed for minimal noise, and that the microcontroller’s power and ground connections are strong enough for reliable signal transmission. </p>
 <p>In order to safely carry current, all power and ground traces are 40 mils, which also reduces voltage drops. All other signal traces, like those connecting the microphone, op-amp, and microcontroller I/O pins, are 20 mils, which is sufficient for lower current signals. Bypass and decoupling capacitors have been placed as close as possible to the microcontroller power pins, with shorter traces to reduce noise. This design ensures reliable detection of sound events while maintaining manufacturability and signal strength.</p>
-<h2 id="pcb-design-layout">PCB Design Layout</h2>
-<p>Both Layers
+<h2 id="pcb-design-layout-ecad">PCB Design Layout (ECAD)</h2>
+<p>Both Layers (front view)
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20both%20layers.png?raw=true" data-desc-position="bottom"><img alt="figure1" src="https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20both%20layers.png?raw=true"></a></p>
 <p>Top Layer
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20copper%20layer.png?raw=true" data-desc-position="bottom"><img alt="figure2" src="https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20copper%20layer.png?raw=true"></a></p>
-<p>Bottom Layer
+<p>Bottom Layer (back view)
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20bottom%20layer.png?raw=true" data-desc-position="bottom"><img alt="figure3" src="https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/pcb%20bottom%20layer.png?raw=true"></a></p>
+<h2 id="final-pcb">Final PCB</h2>
+<p><em>My team's boards did not deliver on time for us to physically receive them but they were manufactured and eventually delivered. The following are renders received from JLC</em></p>
+<p>Front View
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/ari%20pcb%20front.png?raw=true" data-desc-position="bottom"><img alt="figure4" src="https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/ari%20pcb%20front.png?raw=true"></a></p>
+<p>Back View
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/ari%20pcb%20back.png?raw=true" data-desc-position="bottom"><img alt="figure5" src="https://github.com/alazaritt/alazaritt.github.io/blob/main/docs/06-PCB-Design/ari%20pcb%20back.png?raw=true"></a></p>
+<h2 id="pcb-resources">PCB Resources</h2>
 <p>The zip folder of the project is available <a href="https://github.com/alazaritt/alazaritt.github.io/releases/download/schematiczip/individual.subsystem.zip">here</a>, the zip folder of the gerber files are available <a href="https://github.com/alazaritt/alazaritt.github.io/releases/download/newpcbzip/Arianna.Lazaritt.205.Gerber.zip">here</a>.</p>
 
 
